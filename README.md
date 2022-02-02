@@ -1,5 +1,3 @@
-﻿# A project to mange online exam
-
 # Server provide api for multi-choice-exam
 
 ## Description
