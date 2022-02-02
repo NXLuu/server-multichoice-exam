@@ -2,8 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - My motivation for building this project is to provide an api for the online exam application
 - It helps me practice using nodejs(express) and json web token 
 - Returns the test data and checks the logged in user
