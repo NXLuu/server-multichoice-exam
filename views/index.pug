@@ -1,0 +1,10 @@
+﻿h1 Hello World!!! 
+form(method="POST" action="/login")
+        .from-group
+            label(for="email") Email
+            input#name.form-control(type="text", name="email", value= values ? values.email: "")
+        .from-group
+            label(for="password") Password
+            input#password.form-control(type="password", name="password", value= values ? values.password: "")
+
+        button.btn.btn-primary Login

@@ -1,0 +1,36 @@
+{
+  "name": "multiple-choice-questions-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NXLuu/multiple-choice-questions-exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NXLuu/multiple-choice-questions-exam/issues"
+  },
+  "homepage": "https://github.com/NXLuu/multiple-choice-questions-exam#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "pug": "^3.0.2",
+    "sha1": "^1.1.1"
+  }
+}
